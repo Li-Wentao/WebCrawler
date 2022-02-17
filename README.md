@@ -1,6 +1,7 @@
 # WebCrawler
 -------------
-WebCrawler is a web spider built for data repository https://data.world/search. 
+WebCrawler is a web spider built for data repository https://data.world/search.
+Github reposiotry https://github.com/Li-Wentao/WebCrawler.
 
 ## Pre-requests
 * Have conda installed
@@ -8,7 +9,10 @@ WebCrawler is a web spider built for data repository https://data.world/search.
 
 ## Installation
 ----------------
-1. Unzip the file and enter the folder directory
+1. Unzip the file and enter the zip folder directory OR pull from Git
+```bash
+git https://github.com/Li-Wentao/WebCrawler.git
+```
 2. Create a new conda environment with requirements
 ```bash
 conda create --name <new environment name> --file requirement.txt
