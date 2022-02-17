@@ -46,5 +46,12 @@ optional arguments:
 python3 WebCrawler.py -s searchURL.txt -o <directory to save json files>
 ```
 
+## Author
+**Wentao Li**
+
+- [Email](mailto:wentao.li@uth.tmc.edu)
+- [Github](https://github.com/Li-Wentao)
+
 ## License
+-----------
 [MIT](https://choosealicense.com/licenses/mit/)
