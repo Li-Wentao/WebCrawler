@@ -1,15 +1,16 @@
 # WebCrawler
--------------
+
 WebCrawler is a web spider built for data repository https://data.world/search.
+
 Github reposiotry https://github.com/Li-Wentao/WebCrawler.
 
 ## Pre-requests
 * Have conda installed
 * Have Git installed
------------------------
+
 
 ## Installation
-----------------
+
 1. Unzip the file and enter the zip folder directory OR pull from Git
 ```bash
 git clone https://github.com/Li-Wentao/WebCrawler.git
@@ -25,12 +26,12 @@ mkdir <directory to save json files>
 ```
 
 ## Preparations
-----------------
+
 1. Check the file `searchURL.txt` and make sure it has the correct link to data repository. If you have another search quotes other than this one, replace current one with a new URL link.
 
 
 ## Usage
------------
+
 ```
 usage: WebCrawler.py [-h] -s SEARCHURL -o OUTPUTDIR [-v]
 
@@ -46,7 +47,7 @@ optional arguments:
 ```
 
 ## Example
--------------
+
 ```bash
 python3 WebCrawler.py -s searchURL.txt -o <directory to save json files>
 ```
@@ -58,5 +59,5 @@ python3 WebCrawler.py -s searchURL.txt -o <directory to save json files>
 - [Github](https://github.com/Li-Wentao)
 
 ## License
------------
+
 [MIT](https://choosealicense.com/licenses/mit/)
