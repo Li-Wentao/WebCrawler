@@ -11,7 +11,7 @@ WebCrawler is a web spider built for data repository https://data.world/search.
 1. Unzip the file and enter the folder directory
 2. Create a new conda environment with requirements
 ```bash
-conda create --name <new environment name> --file 
+conda create --name <new environment name> --file requirement.txt
 conda activate <new environment name>
 ```
 3. Create a directory to save outputs
