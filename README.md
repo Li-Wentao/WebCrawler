@@ -5,13 +5,14 @@ Github reposiotry https://github.com/Li-Wentao/WebCrawler.
 
 ## Pre-requests
 * Have conda installed
+* Have Git installed
 -----------------------
 
 ## Installation
 ----------------
 1. Unzip the file and enter the zip folder directory OR pull from Git
 ```bash
-git https://github.com/Li-Wentao/WebCrawler.git
+git clone https://github.com/Li-Wentao/WebCrawler.git
 ```
 2. Create a new conda environment with requirements
 ```bash
